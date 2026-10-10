@@ -1,0 +1,186 @@
+{
+  "status": "preliminary",
+  "config": {
+    "density_m2": 7e-05,
+    "carrier_hz": 28000000000.0,
+    "bandwidth_hz": 200000000.0,
+    "beams": 8,
+    "beamwidth_rad": 0.3141592653589793,
+    "gain": 100.0,
+    "alpha_l": 2,
+    "alpha_n": 4,
+    "intercept_l": 7.244359600749906e-07,
+    "intercept_n": 6.30957344480193e-08,
+    "m_l": 3,
+    "m_n": 2,
+    "rcs_mono_m2": 1,
+    "rcs_bi_m2": 0.7,
+    "blockage_m_inv": 0.0149,
+    "average_power_w": 1,
+    "gamma": 0.7,
+    "temperature_k": 300,
+    "residual_si": 1e-12,
+    "speed_m_s": 299792458,
+    "boltzmann_j_k": 1.380649e-23,
+    "area_m2": 25000000.0,
+    "seed": 20261010,
+    "power_scope": "per_beam",
+    "wavelength_m": 0.0107068735,
+    "range_m": 202.30065940342064,
+    "pulse_s": 5e-09,
+    "slot_s": 1.3496047282378307e-06,
+    "energy_j": 1.3496047282378307e-06,
+    "sensing_w": 188.9446619532963,
+    "communication_w": 0.30111556948186985,
+    "noise_w": 8.283894e-13
+  },
+  "command": {
+    "command": "meta",
+    "samples": 10000,
+    "qmc_power": 9,
+    "outer": 128,
+    "slots": 128,
+    "config": null,
+    "output": "results"
+  },
+  "elapsed_seconds": 66.40277400200011,
+  "source_sha256": {
+    "__init__.py": "4f3298bd8b6d9b70d5602b74823b0806ca620780905a9389e5c6dc491c5357e4",
+    "analysis.py": "c2e3b85fb71e168bd6c30928ce7f309f71157588d1d5bfb23105967fe1585193",
+    "check_environment.py": "fc409a8c6b47340a4d2e8a1b824def00b91252f93260ebc38f1fe50b898ddfe3",
+    "cli.py": "d7978484b58dcafbb5b890dda1863997ceb53e3c7cb70e8fffb6b87e98c5788d",
+    "communication.py": "804ab83413499fbef999c8506bda6adb3ea9fd457277bf70a79892d0364e9a84",
+    "config.py": "8e8856f4047210c75e821cb2af1f02a08bb6dc3d49ab785c137a37bdee808b7a",
+    "plotting.py": "f238d78136914357c87bab90623dd4f31383760590d4687359a55eb99e22ab40",
+    "simulation.py": "ec8e9eebe46f2463426e3d3289a1844ad6434dd6fac5339f561c2b530c1ed942",
+    "statistics.py": "6ce08007fc6caa4767e35ace0008c80dfeb4765ac743e2085eb8a64416505a05",
+    "validation.py": "d69943c6f8197466cc5e1a83de727fdc669314f39dd83e11445b2d6a3303240f"
+  },
+  "checks": [
+    {
+      "cluster": 1,
+      "printed_analysis_first_moment": 0.8726927120834861,
+      "printed_analysis_second_moment": 0.7633253922813292,
+      "distance_mc_first_moment": 0.83001708984375,
+      "distance_mc_first_moment_ci": [
+        0.8213244941738124,
+        0.8387096855136876
+      ],
+      "full_geometry_mc_first_moment": [
+        0.868896484375,
+        [
+          0.831570542135487,
+          0.906222426614513
+        ]
+      ],
+      "nested_pool_identity_error": 0.0,
+      "nested_inner_max_95pct_halfwidth_bound": 0.08662058069535207,
+      "inversion_200_vs_400_max_error": 0.02204716869447454,
+      "inversion_400_vs_empirical_max_error": 0.016833671873720535,
+      "inversion_raw_min_max": [
+        0.030541370394707057,
+        1.003002244631277
+      ],
+      "analysis_diagnostics": {
+        "terms": 1,
+        "tail_bound": 0.0,
+        "shape_min": 1.0,
+        "shape_max": 1.0
+      }
+    },
+    {
+      "cluster": 2,
+      "printed_analysis_first_moment": 0.9044237940970206,
+      "printed_analysis_second_moment": 0.819285195898343,
+      "distance_mc_first_moment": 0.890380859375,
+      "distance_mc_first_moment_ci": [
+        0.8811594177083493,
+        0.8996023010416507
+      ],
+      "full_geometry_mc_first_moment": [
+        0.91632080078125,
+        [
+          0.8845189064217157,
+          0.9481226951407843
+        ]
+      ],
+      "nested_pool_identity_error": 0.0,
+      "nested_inner_max_95pct_halfwidth_bound": 0.08662058069535207,
+      "inversion_200_vs_400_max_error": 0.013142432179442665,
+      "inversion_400_vs_empirical_max_error": 0.010764885543073976,
+      "inversion_raw_min_max": [
+        0.05177958207351835,
+        1.010764885543074
+      ],
+      "analysis_diagnostics": {
+        "terms": 205,
+        "tail_bound": 0.00019957549507343297,
+        "shape_min": 1.0001922637267293,
+        "shape_max": 1.1732515381005102
+      }
+    },
+    {
+      "cluster": 4,
+      "printed_analysis_first_moment": 0.9355898111063002,
+      "printed_analysis_second_moment": 0.8760354540261981,
+      "distance_mc_first_moment": 0.9315185546875,
+      "distance_mc_first_moment_ci": [
+        0.9249317971165182,
+        0.9381053122584818
+      ],
+      "full_geometry_mc_first_moment": [
+        0.938232421875,
+        [
+          0.9099048323389483,
+          0.9665600114110517
+        ]
+      ],
+      "nested_pool_identity_error": 0.0,
+      "nested_inner_max_95pct_halfwidth_bound": 0.08662058069535207,
+      "inversion_200_vs_400_max_error": 0.004446901027066685,
+      "inversion_400_vs_empirical_max_error": 0.006092036331636408,
+      "inversion_raw_min_max": [
+        0.08210769682700103,
+        1.0000666124498072
+      ],
+      "analysis_diagnostics": {
+        "terms": 268,
+        "tail_bound": 0.0001998813392303564,
+        "shape_min": 1.0001611553710366,
+        "shape_max": 1.3154546918133108
+      }
+    },
+    {
+      "cluster": 6,
+      "printed_analysis_first_moment": 0.9502883214074758,
+      "printed_analysis_second_moment": 0.9034625197856874,
+      "distance_mc_first_moment": 0.95660400390625,
+      "distance_mc_first_moment_ci": [
+        0.9511468266462944,
+        0.9620611811662056
+      ],
+      "full_geometry_mc_first_moment": [
+        0.96380615234375,
+        [
+          0.9443166905951913,
+          0.9832956140923087
+        ]
+      ],
+      "nested_pool_identity_error": 0.0,
+      "nested_inner_max_95pct_halfwidth_bound": 0.08662058069535207,
+      "inversion_200_vs_400_max_error": 0.002059328249710002,
+      "inversion_400_vs_empirical_max_error": 0.0032960778070132424,
+      "inversion_raw_min_max": [
+        0.10178876662559616,
+        1.0001759251750668
+      ],
+      "analysis_diagnostics": {
+        "terms": 240,
+        "tail_bound": 0.0001996403257286719,
+        "shape_min": 1.0004313155326015,
+        "shape_max": 1.3728474220362412
+      }
+    }
+  ],
+  "warning": "Nested MC tail estimates include binomial noise; not original Figure 3 data."
+}

@@ -1,9 +1,7 @@
 """Check scientific dependencies without claiming model validation."""
 import numpy as np
 import scipy
-import matplotlib
-matplotlib.use("Agg")
-from matplotlib import pyplot as plt
+from .plotting import matplotlib, plt
 from scipy.integrate import quad
 
 
@@ -16,7 +14,7 @@ def main():
     fig.canvas.draw()
     plt.close(fig)
     print(f"Dependencies verified: numpy={np.__version__}, scipy={scipy.__version__}, matplotlib={matplotlib.__version__}")
-    print("No paper model or reproduction has been validated.")
+    print("This dependency check does not validate the paper model or reproduce its figures.")
 
 
 if __name__ == "__main__":

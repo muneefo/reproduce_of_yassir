@@ -1,0 +1,50 @@
+[
+  {
+    "cluster": 1,
+    "positions_only_mean": 0.83233642578125,
+    "outer_group_mean_ci95": [
+      0.8159141219461916,
+      0.8487587296163084
+    ],
+    "fraction_estimated_p_ge_09": 0.234375,
+    "outer": 128,
+    "inner": 128,
+    "note": "Finite-inner-MC estimates; positions fixed, beam/blockage/fading/RCS marks resampled."
+  },
+  {
+    "cluster": 2,
+    "positions_only_mean": 0.88458251953125,
+    "outer_group_mean_ci95": [
+      0.8703580221173499,
+      0.8988070169451501
+    ],
+    "fraction_estimated_p_ge_09": 0.5078125,
+    "outer": 128,
+    "inner": 128,
+    "note": "Finite-inner-MC estimates; positions fixed, beam/blockage/fading/RCS marks resampled."
+  },
+  {
+    "cluster": 4,
+    "positions_only_mean": 0.9266357421875,
+    "outer_group_mean_ci95": [
+      0.9175552053151538,
+      0.9357162790598462
+    ],
+    "fraction_estimated_p_ge_09": 0.7109375,
+    "outer": 128,
+    "inner": 128,
+    "note": "Finite-inner-MC estimates; positions fixed, beam/blockage/fading/RCS marks resampled."
+  },
+  {
+    "cluster": 6,
+    "positions_only_mean": 0.95916748046875,
+    "outer_group_mean_ci95": [
+      0.9522929769389965,
+      0.9660419839985035
+    ],
+    "fraction_estimated_p_ge_09": 0.921875,
+    "outer": 128,
+    "inner": 128,
+    "note": "Finite-inner-MC estimates; positions fixed, beam/blockage/fading/RCS marks resampled."
+  }
+]

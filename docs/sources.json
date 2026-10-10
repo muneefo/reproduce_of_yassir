@@ -1,0 +1,15 @@
+{
+  "primary": {
+    "arxiv": "2604.06069v1",
+    "read": "entire five-page PDF",
+    "url": "https://arxiv.org/pdf/2604.06069",
+    "pdf_sha256": "26f9d9890811ae1b53e8825d52461d42185c6ba17f7fb3a68e37f95977e0a3bb"
+  },
+  "reference_3": {
+    "arxiv": "2502.13348v2",
+    "read": "Section II-B, Section IV, Appendices F and G; relevant sensing independence/exclusion context",
+    "url": "https://arxiv.org/pdf/2502.13348",
+    "limitation": "Preprint; identity to final journal text not verified.",
+    "pdf_sha256": "1404fe15f9a317677b3fd361ca5e3818b769abe8ad8e50da04fe904fbce777e8"
+  }
+}
